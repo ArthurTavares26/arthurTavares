@@ -10,7 +10,7 @@ if(calcularParcial >= 4){
     if((notaFinal >= 5) && (frequencia >= 75)){
     console.log("Parabéns", nomeDoAluno, "você foi aprovado e sua nota final foi:", notaFinal);
 } else {
-    console.log("Reprovado na Nota Final.");
+    console.log("Reprovado na Nota Final ou na frequência.");
 }
 } else {
     console.log("Reprovado na Nota Parcial.");
